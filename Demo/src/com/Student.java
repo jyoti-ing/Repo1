@@ -5,5 +5,8 @@ public static void main(String[] args) {
 	System.out.println("this is Student class");
        System.out.println("Student class");
 	
+ }
+public void m1() {
+	System.out.println("m1-Student");
 }
 }
