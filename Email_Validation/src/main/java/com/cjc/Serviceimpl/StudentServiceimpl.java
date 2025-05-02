@@ -31,6 +31,7 @@ JavaMailSender sender;
 		simple.setText("Hii "+s.getName()+ ",\n "+"your account is created Succfully \n"
 		+"Location:"+s.getLocation()+"\n"+"Username:"+s.getUsername()+"\n"+"Password:"+s.getPassword()
 		+"\n"+"EmailId:"+s.getEmailid()+"age:"+s.getAge());
+		simple.setCc("nalawdesayli@gmail.com");
 }else {
 	throw new InvalidEmailException("Email Id should end with \"@gmail.com\"");
 }
